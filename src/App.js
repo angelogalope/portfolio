@@ -18,8 +18,12 @@ function App() {
         className='flex flex-col jusify-center items-center py-6 px-10'
       >
         <Navbar />
-        <Landing />
-        <Hero />
+        <div className='flex flex-col items-center justify-center h-screen'>
+          <Landing />
+        </div>
+        <div className='flex flex-col items-center justify-center'>
+          <Hero />
+        </div>
       </div>
     </>
   );

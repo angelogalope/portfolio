@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 
 export const Landing = () => {
  return (
-  <div>
+  <div className="">
    <h1 className="text-lg sm:text-2xl md:text-4xl text-gray-400 text-center">
 				"A tech dweeb{" "}
 				<span
